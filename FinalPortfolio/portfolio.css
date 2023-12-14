@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(202, 232, 241);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 18px; /* Base font size for the website */
+}
+
+/* Applying font size to all paragraph tags */
+p {
+    font-size: 1.2em; /* Adjust as needed */
+}
+
+/* Ensuring links within paragraphs have the same font size */
+p a {
+    font-size: 1em; /* Matches the font size of the surrounding paragraph text */
+    color: inherit; /* Optional: to make the link color the same as the text */
+    text-decoration: underline; /* Optional: to make it clear it's a link */
+}
+
+/* If you have other text elements like lists, apply font size to them as well */
+ul, ol, li {
+    font-size: 1.2em; /* Adjust as needed */
+}
+
+/* Adjust font size for headings if needed */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5em; /* This is relative to the base font size */
+}
+
+/* Styling for the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.about-image {
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid #333;
+}
+
+.right-aligned-image {
+    float: right; /* Aligns the image to the right; text will wrap around the left */
+    margin-left: 15px; /* Adds some space between the image and the text */
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Keeps the aspect ratio of the image */
+    border-radius: 15px; /* Optional: rounds the corners of the image */
+    border: 2px solid #333; /* Optional: adds a border */
+}
+
+
+/* Styling for the navigation bar */
+nav#navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-title {
+    font-family: Georgia, serif;
+    /* Other styles for .navbar-title */
+}
+
+
+nav#navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav#navbar ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Styling for page titles */
+.page-title {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Styling for sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    flex: 1;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
